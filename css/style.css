@@ -1,0 +1,4 @@
+h1, h2 {
+    font-family: var(--font-first);
+    font-size: 40px;
+}

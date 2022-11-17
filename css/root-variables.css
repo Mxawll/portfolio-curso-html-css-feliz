@@ -1,0 +1,11 @@
+:root{
+    --font-first: 'Press Start 2P', sans-serif;
+    --font-second: 'Fira Code', sans-serif;
+
+    --color-black-first: #000;
+    --color-black-second: #3A4042;
+    --color-black-third: #828282;
+    --color-first: #E63946;
+    --color-second: #023E8A;
+    --color-third: #fff;
+}

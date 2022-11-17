@@ -47,14 +47,16 @@ button {
     background-color: var(--color-first);
     border: none;
     box-shadow: 5px 5px #000;
-    transition: all .1s;
+    transition: all 100ms;
 }
 
 button:hover {
-    box-shadow: 7px 7px #000;
+    transform: scale(1.02);
+    box-shadow: 6px 6px #000;
 }
 
 button:active {
+    transform: scale(.98);
     box-shadow: 4px 4px #000;
 }
 

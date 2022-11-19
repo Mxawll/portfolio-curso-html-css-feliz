@@ -5,7 +5,7 @@
 .banner-content {
     position: absolute;
     top: 0;
-    padding: 106px 91px;
+    margin: 106px 91px;
 }
 
 .btn-wrapper {
@@ -15,18 +15,10 @@
 }
 
 .title-wrapper {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+    display: inline-block;
     text-align: center;
-
     padding: 37px 33px 44px;
-
-    height: 184px;
-    width: 627px;
-
     background-color: var(--color-black-second);
-
     box-shadow: 10px 10px #000;
 }
 

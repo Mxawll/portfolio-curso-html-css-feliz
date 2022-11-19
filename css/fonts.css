@@ -13,4 +13,5 @@ h1, h2 {
     font-size: 30px;
     color: var(--color-third);
     text-shadow: 5px 5px #000;
+    margin-top: 33px;
 }

@@ -1,4 +1,16 @@
 h1, h2 {
     font-family: var(--font-first);
+    font-weight: 400;
+}
+
+#title {
     font-size: 40px;
+    color: var(--color-first);
+    text-shadow: 5px 5px #000;
+}
+
+#subtitle {
+    font-size: 30px;
+    color: var(--color-third);
+    text-shadow: 5px 5px #000;
 }

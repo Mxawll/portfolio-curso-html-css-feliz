@@ -33,33 +33,3 @@ a:not(:last-child)::before{
     width: 10px;
     margin-right: 10px;
 }
-
-button {
-    cursor: pointer;
-
-    height: 60px;
-    padding: 0 20px;
-
-    font-family: var(--font-second);
-    font-size: 20px;
-    font-weight: 500;
-    color: var(--color-third);
-    background-color: var(--color-first);
-    border: none;
-    box-shadow: 5px 5px #000;
-    transition: all 100ms;
-}
-
-button:hover {
-    transform: scale(1.02);
-    box-shadow: 6px 6px #000;
-}
-
-button:active {
-    transform: scale(.98);
-    box-shadow: 4px 4px #000;
-}
-
-#button {
-    margin-left: 40px;
-}

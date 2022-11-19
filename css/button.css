@@ -26,7 +26,6 @@ button:active {
     box-shadow: 4px 4px #000;
 }
 
-#button {
+.button {
     margin-left: 40px;
 }
-

@@ -1,4 +1,4 @@
-header {
+.header {
     display: flex;
     justify-content: space-between;
     padding: 10px 20px;
@@ -8,11 +8,11 @@ header {
     border-bottom: 10px solid #000;
 }
 
-nav {
+.navigation {
     display: flex;
 }
 
-a {
+.action {
     display: inline-flex;
     align-items: center;
     font-family: var(--font-second);
@@ -22,11 +22,11 @@ a {
     text-decoration: none;
 }
 
-a:not(:nth-child(n+4)) {
+.action:not(:nth-child(n+4)) {
     margin-right: 30px;
 }
 
-a:not(:last-child)::before{
+.action:not(:last-child)::before{
     content: ""; /* navigation bar squares */
     background-color: var(--color-first);
     height: 10px;

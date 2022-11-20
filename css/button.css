@@ -1,4 +1,4 @@
-button {
+.button {
     cursor: pointer;
 
     height: 60px;
@@ -16,16 +16,16 @@ button {
     transition: all 100ms;
 }
 
-button:hover {
+.button:hover {
     transform: scale(1.02);
     box-shadow: 6px 6px #000;
 }
 
-button:active {
+.button:active {
     transform: scale(.98);
     box-shadow: 4px 4px #000;
 }
 
-.button {
+.navigation .button {
     margin-left: 40px;
 }

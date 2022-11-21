@@ -1,5 +1,6 @@
 .banner {
     position: relative;
+    border-bottom: 10px solid #000;
 }
 
 .banner-content {
@@ -8,7 +9,7 @@
     margin: 106px 91px;
 }
 
-.btn-wrapper {
+.button-wrapper {
     display: flex;
     justify-content: space-evenly;
     margin-top: 38px;

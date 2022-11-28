@@ -11,20 +11,46 @@
 
         <link rel="stylesheet" href="./css/reset.css">
         <link rel="stylesheet" href="./css/root-variables.css">
-        <link rel="stylesheet" href="./css/style.css">
+        <link rel="stylesheet" href="./css/components/header.css">
+        <link rel="stylesheet" href="./css/components/action.css">
+        <link rel="stylesheet" href="./css/components/button.css">
+        <link rel="stylesheet" href="./css/components/banner.css">
+        <link rel="stylesheet" href="./css/components/title.css">
+        <link rel="stylesheet" href="./css/components/subtitle.css">
+        <link rel="stylesheet" href="./css/components/box.css">
 
         <title>Portfólio - Curso HTML, CSS Feliz</title>
     </head>
     <body>
-        <header>
-            <img src="./assets/img/logo.svg" alt="Logo of a letter M">
+        <header class="header">
+            <img class="logo" src="./assets/img/logo.svg" alt="Logo of a letter M">
             <nav>
-                <a href="#">Skills</a>
-                <a href="#">Projects</a>
-                <a href="#">About</a>
-                <a href="#">Contacts</a>
-                <a href="#"><button>Download CV</button></a>
+                <a class="action" href="#">Skills</a>
+                <a class="action" href="#">Projects</a>
+                <a class="action" href="#">About</a>
+                <a class="action" href="#">Contacts</a>
+                <a class="action" href="#"><button class="button">Download CV</button></a>
             </nav>
         </header>
+
+        <section class="banner">
+            <div class="img-wrapper">
+                <img 
+                    class="img"
+                    src="./assets/img/bg-banner.jpg" 
+                    alt="abstract painting with shades of blue and purple"
+                />
+            </div>
+            <div class="wrapper">
+                <div class="box">
+                    <h1 class="title">Max Nascimento</h1>
+                    <h2 class="subtitle">FrontEnd Developer</h2>
+                </div>
+                <div class="button-wrapper">
+                    <button class="button">Donwload CV</button>
+                    <button class="button">Contacts</button>
+                </div>
+            </div>
+        </section>
     </body>
 </html>

@@ -1,0 +1,26 @@
+.banner {
+    position: relative;
+    border-bottom: 10px solid #000;
+}
+
+.wrapper {
+    position: absolute;
+    left: 90px; top: 105px; 
+}
+
+.img-wrapper {
+    height: 100vh;
+    width: 100%;
+}
+
+.img-wrapper .img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.button-wrapper {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 40px;
+}

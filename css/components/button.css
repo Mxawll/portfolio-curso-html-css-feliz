@@ -1,0 +1,24 @@
+.button {
+    border: none;
+    cursor: pointer;
+    width: 170px;
+    height: 60px;
+    font-family: var(--font-second);
+    font-size: 20px;
+    color: var(--color-third);
+    background-color: var(--color-first);
+    box-shadow: 5px 5px #000;
+    transition: all 100ms cubic-bezier(.45, .97, .68, 2.48); 
+}
+
+.header .button{
+    margin-right: 20px;
+}
+
+.button:hover {
+    transform: scale(1.08);
+}
+
+.button:active {
+    transform: scale(1);
+}

@@ -1,0 +1,15 @@
+.skills-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.skills-wrapper .skill-tec:nth-child(odd) { /* irmaos impares */
+    margin-right: 100px;
+}
+
+.skills-wrapper .skill-tec:nth-child(n+3) {
+    margin-top: 25px;
+}

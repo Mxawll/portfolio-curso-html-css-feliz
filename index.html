@@ -12,18 +12,22 @@
         <link rel="stylesheet" href="./css/reset.css">
         <link rel="stylesheet" href="./css/root-variables.css">
         <link rel="stylesheet" href="./css/components/header.css">
+        <link rel="stylesheet" href="./css/components/banner.css">
+        <link rel="stylesheet" href="./css/components/section.css">
+        <link rel="stylesheet" href="./css/components/skills-wrapper.css">
+        <link rel="stylesheet" href="./css/components/skill-tec.css">
         <link rel="stylesheet" href="./css/components/action.css">
         <link rel="stylesheet" href="./css/components/button.css">
-        <link rel="stylesheet" href="./css/components/banner.css">
-        <link rel="stylesheet" href="./css/components/title.css">
+        <link rel="stylesheet" href="./css/components/main-title.css">
         <link rel="stylesheet" href="./css/components/subtitle.css">
         <link rel="stylesheet" href="./css/components/box.css">
+        <link rel="stylesheet" href="./css/components/progress-bar.css">
 
         <title>Portfólio - Curso HTML, CSS Feliz</title>
     </head>
     <body>
         <header class="header">
-            <img class="logo" src="./assets/img/logo.svg" alt="Logo of a letter M">
+            <img class="logo" src="./assets/logo/logo.svg" alt="Logo of a letter M">
             <nav>
                 <a class="action" href="#">Skills</a>
                 <a class="action" href="#">Projects</a>
@@ -34,23 +38,89 @@
         </header>
 
         <section class="banner">
-            <div class="img-wrapper">
+            <div class="imgwrapper">
                 <img 
                     class="img"
                     src="./assets/img/bg-banner.jpg" 
-                    alt="abstract painting with shades of blue and purple"
+                    alt="Abstract painting with shades of blue and purple"
                 />
             </div>
             <div class="wrapper">
                 <div class="box">
-                    <h1 class="title">Max Nascimento</h1>
+                    <h1 class="main-title">Max Nascimento</h1>
                     <h2 class="subtitle">FrontEnd Developer</h2>
                 </div>
-                <div class="button-wrapper">
+                <div class="btnwrapper">
                     <button class="button">Donwload CV</button>
                     <button class="button">Contacts</button>
                 </div>
             </div>
+        </section>
+        
+        <section class="section">
+            <h2 class="main-title _second">Skills</h2>
+            <ul class="skills-wrapper">
+                <li class="skill-tec">
+                    <img
+                        class="icon"
+                        src="./assets/icon/js.png" 
+                        alt="JavaScript logo in pixel art"
+                    />
+                    <div class="right">
+                        <h3 class="title">JavaScript</h3>
+                        <progress 
+                            class="progress-bar _jspercentage"
+                            max="100" value="1">
+                            1%
+                        </progress>
+                    </div>
+                </li>
+                <li class="skill-tec">
+                    <img
+                        class="icon"
+                        src="./assets/icon/html5.png" 
+                        alt="HTML5 logo in pixel art"
+                    />
+                    <div class="right">
+                        <h3 class="title">HTML5</h3>
+                        <progress 
+                            class="progress-bar _htmlpercentage"
+                            max="100" value="60">
+                            60%
+                        </progress>
+                    </div>
+                </li>
+                <li class="skill-tec">
+                    <img
+                        class="icon"
+                        src="./assets/icon/python.png" 
+                        alt="Python logo in pixel art"
+                    />
+                    <div class="right">
+                        <h3 class="title">Python</h3>
+                        <progress 
+                            class="progress-bar _pypercentage"
+                            max="100" value="1">
+                            1%
+                        </progress>
+                    </div>
+                </li>
+                <li class="skill-tec">
+                    <img
+                        class="icon"
+                        src="./assets/icon/css3.png" 
+                        alt="CSS3 logo in pixel art"
+                    />
+                    <div class="right">
+                        <h3 class="title">CSS</h3>
+                        <progress 
+                            class="progress-bar _csspercentage"
+                            max="100" value="45">
+                            45%
+                        </progress>
+                    </div>
+                </li>
+            </ul>
         </section>
     </body>
 </html>

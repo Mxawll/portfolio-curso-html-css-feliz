@@ -1,7 +1,14 @@
-.title {
+.main-title {
     font-family: var(--font-first);
     font-size: 40px;
     font-weight: 400;
     color: var(--color-first);
     text-shadow: 5px 5px #000;
+}
+
+.main-title._second {
+    color: var(--color-third);
+    text-shadow: none;
+    text-align: center;
+    margin-bottom: 50px;
 }

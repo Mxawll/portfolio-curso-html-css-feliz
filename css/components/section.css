@@ -1,0 +1,12 @@
+.section {
+    background-color: var(--color-first);
+    padding: 50px 0 100px;
+    border-bottom: 10px solid #023E8A ;
+}
+
+.section .title {
+    font-family: var(--font-first);
+    color: var(--color-third);
+    font-size: 25px;
+    font-weight: 400;
+}

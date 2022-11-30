@@ -8,18 +8,18 @@
     left: 90px; top: 105px; 
 }
 
-.img-wrapper {
+.imgwrapper {
     height: 100vh;
     width: 100%;
 }
 
-.img-wrapper .img {
+.imgwrapper .img {
     height: 100%;
     width: 100%;
     object-fit: cover;
 }
 
-.button-wrapper {
+.btnwrapper {
     display: flex;
     justify-content: space-evenly;
     margin-top: 40px;

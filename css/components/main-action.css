@@ -1,17 +1,16 @@
-.action {
+.main-action {
     display: inline-flex;
     align-items: center;
-    text-decoration: none;
     color: var(--color-third);
     font-family: var(--font-second);
     font-size: 20px;
 }
 
-.action:not(:last-child) {
+.main-action:not(:last-child) {
     margin-right: 30px;
 }
 
-.action:not(:last-child)::before{
+.main-action:not(:last-child)::before{
     content: ""; /* navigation bar squares */
     background-color: var(--color-first);
     height: 10px;

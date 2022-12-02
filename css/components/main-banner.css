@@ -1,25 +1,14 @@
-.banner {
+.main-banner {
     position: relative;
     border-bottom: 10px solid #000;
 }
 
-.wrapper {
+.main-banner .wrapper {
     position: absolute;
     left: 90px; top: 105px; 
 }
 
-.imgwrapper {
-    height: 100vh;
-    width: 100%;
-}
-
-.imgwrapper .img {
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
-}
-
-.btnwrapper {
+.main-banner .btnwrapper {
     display: flex;
     justify-content: space-evenly;
     margin-top: 40px;

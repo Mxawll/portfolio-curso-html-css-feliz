@@ -1,0 +1,22 @@
+.main-box {
+    display: inline-block;
+    text-align: center;
+    background-color: var(--color-black-second);
+    box-shadow: 10px 10px #000;
+    padding: 35px 35px 45px;
+}
+
+.main-box .main-title {
+    margin-bottom: 35px;
+}
+
+.main-box._second {
+    background-color: #252c5c;
+    box-shadow: 10px 10px #fff;
+    transition: 500ms;
+}
+
+.main-box._second:hover {
+    background-color: transparent;
+    box-shadow: 10px 10px transparent;
+}

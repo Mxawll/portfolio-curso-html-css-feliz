@@ -1,0 +1,21 @@
+.section-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.section-wrapper .skill-tec:nth-child(odd) { /* irmaos impares */
+    margin-right: 100px;
+}
+
+.section-wrapper .skill-tec:nth-child(3), 
+.section-wrapper .skill-tec:nth-child(4){
+    margin-top: 25px;
+}
+
+.section-wrapper._projects {
+    width: 100%;
+    justify-content: space-evenly;
+}
